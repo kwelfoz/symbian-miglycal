@@ -1,0 +1,41 @@
+#include <eikon.rh>
+#include <avkon.rh>
+#include <avkon.rsg>
+#include "Miglycal.hrh"
+
+RESOURCE RSS_SIGNATURE { }
+
+RESOURCE TBUF r_default_document_name
+    {
+    buf = "Miglycal";
+    }
+
+RESOURCE EIK_APP_INFO
+    {
+    menubar = r_miglycal_menubar;
+    cba = R_AVKON_SOFTKEYS_OPTIONS_BACK;
+    }
+
+RESOURCE MENU_BAR r_miglycal_menubar
+    {
+    titles =
+        {
+        MENU_TITLE
+            {
+            menu_pane = r_miglycal_menu;
+            txt = "Miglycal";
+            }
+        };
+    }
+
+RESOURCE MENU_PANE r_miglycal_menu
+    {
+    items =
+        {
+        MENU_ITEM
+            {
+            command = EMiglycalCmdExit;
+            txt = "Exit";
+            }
+        };
+    }
