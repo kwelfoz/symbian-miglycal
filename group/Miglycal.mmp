@@ -1,0 +1,36 @@
+TARGET          Miglycal.exe
+TARGETTYPE      exe
+UID             0x100039CE 0xE7A51001
+VENDORID        0x00000000
+CAPABILITY      NONE
+EPOCSTACKSIZE   0x5000
+EPOCHEAPSIZE    0x10000 0x400000
+
+SOURCEPATH      ../src
+SOURCE          Miglycal.cpp
+SOURCE          MiglycalApplication.cpp
+SOURCE          MiglycalDocument.cpp
+SOURCE          MiglycalAppUi.cpp
+SOURCE          MiglycalContainer.cpp
+
+USERINCLUDE     ../inc
+SYSTEMINCLUDE   /epoc32/include
+SYSTEMINCLUDE   /epoc32/include/platform
+
+START RESOURCE  ../resources/Miglycal.rss
+TARGETPATH      \\resource\\apps
+END
+
+START RESOURCE  ../resources/Miglycal_reg.rss
+TARGETPATH      \\private\\10003a3f\\apps
+END
+
+LIBRARY         euser.lib
+LIBRARY         apparc.lib
+LIBRARY         cone.lib
+LIBRARY         eikcore.lib
+LIBRARY         avkon.lib
+LIBRARY         eikcoctl.lib
+LIBRARY         bafl.lib
+LIBRARY         efsrv.lib
+LIBRARY         mediaclientaudio.lib
