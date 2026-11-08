@@ -1,0 +1,4 @@
+#ifndef MIGLYCAL_HRH
+#define MIGLYCAL_HRH
+#define EMiglycalCmdExit 0x7001
+#endif
