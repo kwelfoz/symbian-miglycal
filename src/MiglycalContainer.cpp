@@ -1,6 +1,8 @@
 #include "Miglycal.h"
 #include <eikclb.h>
-#include <barsread.h>
+#include <eiktxlbx.h>
+#include <eiklbobs.h>
+#include <f32file.h>
 
 CMiglycalContainer* CMiglycalContainer::NewL(
     const TRect& aRect, CMiglycalAppUi& aAppUi)
