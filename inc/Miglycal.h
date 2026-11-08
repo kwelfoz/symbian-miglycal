@@ -40,6 +40,7 @@ private:
 class CMiglycalAppUi : public CAknAppUi, public MMdaAudioPlayerCallback
     {
 public:
+    CMiglycalAppUi();
     void ConstructL();
     ~CMiglycalAppUi();
 
