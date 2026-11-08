@@ -1,0 +1,10 @@
+#{"Miglycal"},(0xE7A51001),1,0,0
+%{"kwelfoz"}
+:"kwelfoz"
+
+; Executable
+"../epoc32/release/$(PLATFORM)/$(TARGET)/Miglycal.exe" - "!:\\sys\\bin\\Miglycal.exe"
+
+; Application resources
+"../epoc32/data/z/resource/apps/Miglycal.rsc" - "!:\\resource\\apps\\Miglycal.rsc"
+"../epoc32/data/z/private/10003a3f/apps/Miglycal_reg.rsc" - "!:\\private\\10003a3f\\import\\apps\\Miglycal_reg.rsc"
