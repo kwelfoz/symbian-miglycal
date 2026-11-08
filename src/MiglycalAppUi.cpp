@@ -1,6 +1,11 @@
 #include "Miglycal.h"
+#include "Miglycal.hrh"
 #include <f32file.h>
-#include <eikenv.h>
+
+CMiglycalAppUi::CMiglycalAppUi()
+    : iContainer(NULL), iTracks(NULL), iPlayer(NULL)
+    {
+    }
 
 void CMiglycalAppUi::ConstructL()
     {
