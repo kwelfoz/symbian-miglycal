@@ -25,9 +25,10 @@ This is deliberately not an Android port. It is a separate Symbian C++ applicati
 
 This project targets the legacy **S60 5th Edition SDK** with the Symbian C++ toolchain (for example, Carbide.c++ 2.0 / the matching SDK).
 
-From the project directory, use the SDK's command prompt:
+Open the SDK command prompt, change into the `group` directory, and run:
 
 ```bat
+cd group
 bldmake bldfiles
 abld build gcce urel
 ```
