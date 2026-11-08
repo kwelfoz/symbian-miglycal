@@ -1,0 +1,26 @@
+#include <appinfo.rh>
+
+UID2 KUidAppRegistrationResourceFile
+UID3 0xE7A51001
+
+RESOURCE APP_REGISTRATION_INFO
+    {
+    app_file = "Miglycal";
+    localisable_resource_file = "\\resource\\apps\\Miglycal";
+    localisable_resource_id = 1;
+    embeddability = KAppNotEmbeddable;
+    newfile = KAppDoesNotSupportNewFile;
+    }
+
+RESOURCE LOCALISABLE_APP_INFO 1
+    {
+    short_caption = "Miglycal";
+    caption_and_icon =
+        {
+        CAPTION_AND_ICON_INFO
+            {
+            caption = "Miglycal";
+            number_of_icons = 0;
+            }
+        };
+    }
